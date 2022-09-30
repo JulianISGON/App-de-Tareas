@@ -15,12 +15,6 @@ let id // para que inicie en 0 cada tarea tendra un id diferente
 const FECHA = new Date ()
 fecha.innerHTML = FECHA.toLocaleDateString('es-MX',{weekday: 'long', month: 'short', day:'numeric'})
 
-
-
-
-
-
-
 // funcion de agregar tarea 
 
 function agregarTarea( tarea,id,realizado,eliminado) {
